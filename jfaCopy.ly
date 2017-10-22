@@ -180,7 +180,7 @@
       ees8 g \tuplet 3/2 {d4 ees8} c8 c bes g |
       f2 g4. f'16 g |
 
-      aes8 aes g16 g f8 ~ f4
+      aes8 aes \tuplet 3/2 {g g f ~} f4
       \tuplet 3/2 { f8 f f } |
       ees c aes c d4
       r8 c16 d |
@@ -193,7 +193,7 @@
       r4 f,8\( aes8 ~ aes4 ees' |
       des2 \) r8 aes16 \( des ~ des8. ges16 |
       ges8 aes ~ aes4 ~ aes8 \)
-      bes, des-> ges |
+      as, des-> ges |
       \tuplet 3/2 {f \( ees des8} r f \tuplet 3/2 { ges4 ges f }|
       ees2 ~ ees4 \) f8 ges |
       f f \tuplet 3/2 {f ees ees} des4 r16 bes16 des ees |
