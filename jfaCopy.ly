@@ -171,13 +171,13 @@
       c'16 d
       \time 4/4
     
-      ees8 g d ees c8. c16 bes8. g16 |
+      ees8 g d ees \tuplet 3/2 {c4 c8} \tuplet 3/2 {bes4 g8} |
       f2 g4. c16 d |
       
       % Show future time signatures (remember, we got rid of them above...) 
       \override Staff.TimeSignature #'stencil = ##t
 
-      ees8 g d8. ees16 c8 c bes g |
+      ees8 g \tuplet 3/2 {d4 ees8} c8 c bes g |
       f2 g4. f'16 g |
 
       aes8 aes g16 g f8 ~ f4
