@@ -62,7 +62,7 @@
     }
   >> 
   \chordmode {
-    \set ChordNames.midiInstrument = "basoon"
+    \set ChordNames.midiInstrument = "acoustic guitar (nylon)"
     R1*7
 
     % Without this, some extra space is added after the line...
@@ -191,13 +191,13 @@
       \bar "||"
 
       \key des \major
-      r4 f,8\( aes8 ~ aes4 ees' |
+      r4. f,8\( aes4 ees' |
       des2 \) r8 aes16 \( des ~ des8. ges16 |
       ges8 aes ~ aes4 ~ aes8 \)
       as, des-> ges |
       \tuplet 3/2 {f \( ees des8} r f \tuplet 3/2 { ges4 ges f }|
       ees2 ~ ees4 \) f8 ges |
-      f f \tuplet 3/2 {f ees ees} des4 r16 bes16 des ees |
+      f f f ees \tuplet 3/2 {ees des4} r16 bes16 des ees |
       f8 f \tuplet 3/2 {f ees ees} des4. bes8 |
       ges' ges ~ ges bes aes f ees des |
       ees2  aes,4 \( des8 ees |
@@ -253,12 +253,12 @@
       }
       d1
 
-      % (Ã¢ÂÂ¯ÃÂ°Ã¢ÂÂ¡ÃÂ°Ã¯Â¼ÂÃ¢ÂÂ¯Ã¯Â¸Âµ Ã¢ÂÂ»Ã¢ÂÂÃ¢ÂÂ»)
+      % (ÃÂ¢ÃÂÃÂ¯ÃÂÃÂ°ÃÂ¢ÃÂÃÂ¡ÃÂÃÂ°ÃÂ¯ÃÂ¼ÃÂÃÂ¢ÃÂÃÂ¯ÃÂ¯ÃÂ¸ÃÂµ ÃÂ¢ÃÂÃÂ»ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ»)
       \time 3/4
       g,4 \( bes f'
       \time 4/4
 
-      %  (Ã¢ÂÂ¯ÃÂ°Ã¢ÂÂ¡ÃÂ°Ã¯Â¼ÂÃ¢ÂÂ¯Ã¯Â¸Âµ Ã¢ÂÂ»Ã¢ÂÂÃ¢ÂÂ»)
+      %  (ÃÂ¢ÃÂÃÂ¯ÃÂÃÂ°ÃÂ¢ÃÂÃÂ¡ÃÂÃÂ°ÃÂ¯ÃÂ¼ÃÂÃÂ¢ÃÂÃÂ¯ÃÂ¯ÃÂ¸ÃÂµ ÃÂ¢ÃÂÃÂ»ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ»)
       \transpose des ees \relative des' {
         des2 \) r8 aes16 \( des [~ des8 ~ des16] ges |
         ges8 aes ~ aes4 ~ aes8 \)
@@ -271,7 +271,7 @@
       }
       c'2 c,4 \( f8 g 
 
-      % (Ã¢ÂÂ¯ÃÂ°Ã¢ÂÂ¡ÃÂ°Ã¯Â¼ÂÃ¢ÂÂ¯Ã¯Â¸Âµ Ã¢ÂÂ»Ã¢ÂÂÃ¢ÂÂ»)
+      % (ÃÂ¢ÃÂÃÂ¯ÃÂÃÂ°ÃÂ¢ÃÂÃÂ¡ÃÂÃÂ°ÃÂ¯ÃÂ¼ÃÂÃÂ¢ÃÂÃÂ¯ÃÂ¯ÃÂ¸ÃÂµ ÃÂ¢ÃÂÃÂ»ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ»)
       \key f \major
       a2 \)
       \transpose des f \relative des' {
