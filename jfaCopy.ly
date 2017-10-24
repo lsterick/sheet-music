@@ -61,7 +61,8 @@
       \break
     }
   >> 
-  \chords {
+  \chordmode {
+    \set ChordNames.midiInstrument = "acoustic guitar (nylon)"
     R1*7
 
     % Without this, some extra space is added after the line...
@@ -180,7 +181,7 @@
       ees8 g \tuplet 3/2 {d4 ees8} c8 c bes g |
       f2 g4. f'16 g |
 
-      aes8 aes \tuplet 3/2 {g g f ~} f4
+      aes8 aes \tuplet 3/2 {g g f ~} f4 % Not entirely convinced of these triplets
       \tuplet 3/2 { f8 f f } |
       ees c aes c d4
       r8 c16 d |
@@ -203,7 +204,7 @@
       
       des2 \) r8 aes  \( des ges |
       ges aes ~ aes4 ~ aes8 \)
-      bes, des ges |
+      aes, des ges |
       f \( ees des8 f ges8 ges f f |
       ees2 ~ ees4 \) f8 ges |
       f f f ees ees des r16 bes16 des ees |
@@ -252,12 +253,12 @@
       }
       d1
 
-      % (â¯Â°â¡Â°ï¼â¯ï¸µ â»ââ»)
+      % (Ã¢ÂÂ¯ÃÂ°Ã¢ÂÂ¡ÃÂ°Ã¯Â¼ÂÃ¢ÂÂ¯Ã¯Â¸Âµ Ã¢ÂÂ»Ã¢ÂÂÃ¢ÂÂ»)
       \time 3/4
       g,4 \( bes f'
       \time 4/4
 
-      %  (â¯Â°â¡Â°ï¼â¯ï¸µ â»ââ»)
+      %  (Ã¢ÂÂ¯ÃÂ°Ã¢ÂÂ¡ÃÂ°Ã¯Â¼ÂÃ¢ÂÂ¯Ã¯Â¸Âµ Ã¢ÂÂ»Ã¢ÂÂÃ¢ÂÂ»)
       \transpose des ees \relative des' {
         des2 \) r8 aes16 \( des [~ des8 ~ des16] ges |
         ges8 aes ~ aes4 ~ aes8 \)
@@ -270,7 +271,7 @@
       }
       c'2 c,4 \( f8 g 
 
-      % (â¯Â°â¡Â°ï¼â¯ï¸µ â»ââ»)
+      % (Ã¢ÂÂ¯ÃÂ°Ã¢ÂÂ¡ÃÂ°Ã¯Â¼ÂÃ¢ÂÂ¯Ã¯Â¸Âµ Ã¢ÂÂ»Ã¢ÂÂÃ¢ÂÂ»)
       \key f \major
       a2 \)
       \transpose des f \relative des' {
