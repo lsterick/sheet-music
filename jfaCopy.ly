@@ -62,7 +62,7 @@
     }
   >> 
   \chordmode {
-    \set ChordNames.midiInstrument = "acoustic guitar (nylon)"
+    \set ChordNames.midiInstrument = "basoon"
     R1*7
 
     % Without this, some extra space is added after the line...
