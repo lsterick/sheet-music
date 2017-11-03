@@ -69,8 +69,7 @@
          that split the night
          and touched the sound of si- lence.
       }
-      \new Lyrics {
-        \set associatedVoice = "vocals"
+      \new Lyrics \lyricsto "vocals" {
         And in the nak- ed light I saw
         ten thou- sand peo- ple, may- be more. 
         Peo- ple talk- ing with- out speak- ing,
@@ -102,13 +101,34 @@
       f (c' f, e d a' e a) |
       f4 (a) |
       g8 (c e, c' g c e, g) |
-      
+      d (a' e a d, a' e a) |
+      r d, d d <d f> <d f> <d f a> <d f a> |
+      <c e g>1
+
     }
     \new Staff {
       \key d \minor
       \clef bass
       r1 |
-      r4 d8 d f f a a 
+      r4 d8 d f f a a |
+      g1 |
+      r8 c c c e e g g |
+      f1 |
+      r8 f f f a a c' c' |
+      d'2 c'|
+      r4 f8 f a a c' c' |
+      d'2 c'|
+      r4 d8 d|
+      d' d'4.~ d'4 d'8 e' |
+      f' f'4. e'8 d'4. |
+      c'2. d'8 c'|
+      a1 |
+      r8 d d d |
+      c'2. r8 e|
+      f d4.~ d2 |
+      <d f>1 |
+      c4 c8 g, c4 c8 g, |
+      
     }
   
 
