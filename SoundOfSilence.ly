@@ -43,10 +43,29 @@
       \time 2/4
       r8 f f f
       \time 4/4
-      c2. r8 e |
+      c'2. r8 e, |
       f d4.~ d2 
       \repeat volta 2 {
         r8 d d d f f a a |
+        g1 |
+        r4 c,8 c e e g g |
+        f1 |
+        r4 f8  f a a c c |
+        d4. c8~ c2 |
+        r8 f, f f a a c c |
+        d4 d8 c~ c2 |
+        \time 2/4 
+        r4 f,8 f
+        \time 4/4
+        d'4 d8 d4~ d8 d e |
+        f4 f8 f e8 d4. |
+        c2. d8 c |
+        a1 |
+        \time 2/4
+        r8 f f f
+        \time 4/4
+        c'2. r8 e, |
+        f d4.~ d2 
       }
     }
     }
@@ -65,8 +84,8 @@
          'Neath the ha- lo of a street lamp,
          I turned my col- lar to the cold and damp
          When my eyes were stabbed 
-         by the flash of a ne-on light
-         that split the night
+         by the flash of a ne- on light
+         split the night
          and touched the sound of si- lence.
       }
       \new Lyrics \lyricsto "vocals" {
@@ -80,6 +99,22 @@
         dis- turb the sound of si-lence.
       }
       >>
+
+      "Fools!" said I, "You do not know
+      si- lence like a can- cer grows."
+      "Hear my workds that I might teach you,
+      Take my arms that I might reach you."
+      But my words like si- lent rain- drops fell,
+      and ech- oed in the wells of si- lence.
+
+      And the peo- ple bowed and prayed
+      to the ne- on god they made. 
+      And the sign flashed out its warn- ing.
+      In the works that it was form- ing.
+      And the signs said 
+      "The words of the proph- ets are writ- ten on the sub- way walls
+      and ten- e- ment halls"
+      And whis- per'd in the sounds of si- lence.
     }
 
     \new PianoStaff \relative c'
@@ -104,7 +139,18 @@
       d (a' e a d, a' e a) |
       r d, d d <d f> <d f> <d f a> <d f a> |
       <c e g>1
-
+      r4 c8 c <c e> <c e> <c e g> <c e g> |
+      <a d f>1 |
+      r4 d8 d <d f> <d f> <d f a> <d f a> |
+      <f bes d>4. <f a c>8~ <f a c>2 |
+      r8 f f f <f a> <f a> <f a c> <f a c> |
+      <f bes d>4 <f bes d>8 <f a c>8~ <f a c>2 |
+      r4 f8 f|
+      <bes d>4 <bes d>8 <bes d>8~ <bes d>4 <bes d>8 <c e> |
+      <d f>4 <d f>8 <d f> <c e> <bes d>4. |
+      <a c>2. <bes d>8 <a c> |
+      <f a>1 |
+      
     }
     \new Staff {
       \key d \minor
@@ -128,7 +174,7 @@
       f d4.~ d2 |
       <d f>1 |
       c4 c8 g, c4 c8 g, |
-      
+
     }
   
 
