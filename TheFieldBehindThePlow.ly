@@ -5,7 +5,7 @@
 }
 
 \score {
-  \new Staff \relative c'' {
+  \new Staff \with {midiInstrument = #"fiddle"} \relative c'' {
     \time 1/2
     \key g \major 
     b4 c |
