@@ -5,6 +5,13 @@
 }
 
 \score {
+<<
+  \chordmode {
+    \set ChordNames.midiInstrument = "acoustic guitar (nylon)"
+    % short version: chords are probably the same as the verse
+    r2
+    g\breve d2 c g1 a\breve:m c1 d g\breve d2 c g1 a1:m d\breve:7 g
+  }
   \new Staff \with {midiInstrument = #"violin"} \relative c' {
     \time 1/2
     \key g \major 
@@ -29,6 +36,8 @@
     g2 
     \bar "|."
   }
+  
+  >>
   \midi {}
   \layout {}
 }
