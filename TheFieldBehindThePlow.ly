@@ -23,7 +23,9 @@
     b8 c b a g fis e4 |
     b2. a8 g |
     a4. b8 c d e4 |
-    
+    fis2 e8 d e fis |
+    g b a g fis d e fis |
+    g2
   }
   \midi {}
   \layout {}
