@@ -5,19 +5,19 @@
 }
 
 \score {
-  \new Staff \with {midiInstrument = #"fiddle"} \relative c'' {
+  \new Staff \with {midiInstrument = #"violin"} \relative c' {
     \time 1/2
     \key g \major 
-    b4 c |
+    b8 c4. |
     \time 2/2
-    d2 b4 a |
-    g2 d'4 g |
-    \grace g8 (fis2) e4 d |
-    \grace c8 (b1) |
+    d2 b8 a4. |
+    g2 d'8 g4. |
+    \acciaccatura  g8 fis2 e8 d4. |
+    b1 |
     c4. d8 e c4. |
     a2. b4 |
     c8 b c d e4 g |
-    \grace g8 (fis8) e fis g a b c a |
+    \acciaccatura  g8 fis8 e fis g a b c b |
     d2 b4 a |
     g2 g |
     b8 c b a g fis e4 |
