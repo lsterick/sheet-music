@@ -35,6 +35,19 @@
     g b a g fis d e fis |
     g2 
     \bar "|."
+    \break
+
+    % bridge - draft
+    \time 1/2
+    \key g \major 
+    \tempo 2 = 75
+    % some held notes, then:
+    d8 c d c |
+    \time 2/2
+    d2 b8 a4. |
+    g2 g |
+    a d8 d4.
+    \bar "|."
   }
   
   >>
