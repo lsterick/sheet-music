@@ -46,6 +46,8 @@
     \time 2/2
     d2 b8 a4. |
     g2 g |
+    % well, I guess I didn't get very far with this. I'll probably need to actually sit at my keyboard ;)
+    % I almost certainly won't get any more done before Wed. (Nov. 22)
     %a 8 4.
     \bar "|."
   }
